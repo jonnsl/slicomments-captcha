@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset>
+		<field
+			name="captcha"
+			type="captcha"
+			label="PLG_SLICOMMENTS_CAPTCHA_LABEL"
+			description="PLG_SLICOMMENTS_CAPTCHA_DESC"
+			validate="captcha"
+		/>
+	</fieldset>
+</form>
