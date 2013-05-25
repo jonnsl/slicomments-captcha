@@ -20,5 +20,6 @@ class plgSlicommentsCaptcha extends JPlugin
 		// Load the custom form
 		$this->loadLanguage();
 		$form->loadFile(dirname(__FILE__).'/forms/captcha.xml');
+		$form->setFieldAttribute('captcha', 'plugin', $this->params->get('captcha', ''));
 	}
 }
